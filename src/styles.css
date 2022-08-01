@@ -1,0 +1,81 @@
+#city-search {
+  width: 500px;
+  color: #ececec;
+  background-color: rgb(56, 81, 112, 0.5);
+  border-width: 0.5px;
+  border-radius: 5px;
+}
+
+h2 {
+  color: #142d4c;
+}
+
+h3 {
+  margin: 50px 150px;
+  color: #385170;
+}
+
+::placeholder {
+  color: #142d4c;
+}
+
+.container {
+  font-family: "Nunito", sans-serif;
+  padding: 15px 30px;
+  background-color: #ececec;
+  border-radius: 20px;
+  box-shadow: 2px 2px 60px #385170;
+  margin-top: 30px;
+}
+
+input.btn-secondary {
+  background-color: #9fd3c7;
+  font-stretch: wider;
+  color: #142d4c;
+}
+
+.emoji {
+  font-size: 70px;
+  color: #385170;
+}
+
+.search-results {
+  text-align: center;
+}
+
+.card-text {
+  font-size: 20px;
+  color: #385170;
+}
+
+.card-body {
+  text-align: center;
+}
+
+.card {
+  border: white;
+}
+
+#main-temp {
+  font-weight: bold;
+}
+
+#max-min-temp #max-temp {
+  font-weight: bold;
+}
+
+.first-color {
+  background: #ececec;
+}
+
+.second-color {
+  background: #9fd3c7;
+}
+
+.third-color {
+  background: #385170;
+}
+
+.fourth-color {
+  background: #142d4c;
+}

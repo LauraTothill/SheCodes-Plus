@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Weather App</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@300;500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="src/styles.css">
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+  </head>
+  <body>
+    <div class="container">
+    <form id="search-form">
+        <div class="row">
+          <div class="col-sm">
+          <input id="city-search" type="text" placeholder="Enter city name..." />
+          </div>
+          <div class="col-sm">
+          <input type="submit" class="btn btn-secondary"></button>
+          </div>
+          </div>
+        <hr />
+        </form>
+    <div class="search-results">
+    <h1 id="city">Current Temperature in Adelaide </h1>
+    <h3> <div id="date-time"> Date Time </div> </br>
+    <div id="main-temp">20°C</div></br>
+    <div id="max-min-temp"><span id="max-temp"><b>14°C</b></span>/5°C</div></br>
+    <div class="emoji">🌧</div></h3>
+    </div>
+    <hr />
+<div class="forecast">
+    <div class="row no-gutters">
+    <div class="col-sm">
+        <div class="card">
+  <div class="card-body">
+    <h5 class="card-title">Saturday</h5>
+    <p class="card-text"><b>15°C</b>/5°C
+    <div class="emoji">☁</div> </p>
+</div>
+</div>
+</div>
+<div class="col-sm">
+    <div class="card">
+  <div class="card-body">
+    <h5 class="card-title">Sunday</h5>
+    <p class="card-text"><b>14°C</b>/5°C
+    <div class="emoji">☁</div></p>
+</div>
+</div>
+</div>
+<div class ="col-sm">
+    <div class="card">
+          <div class="card-body">
+    <h5 class="card-title">Monday</h5>
+    <p class="card-text"><b>14°C</b>/5°C
+    <div class="emoji">🌧</div> </p>
+</div>
+</div>
+</div>
+<div class="col-sm">
+    <div class="card">
+  <div class="card-body">
+    <h5 class="card-title">Tuesday</h5>
+    <p class="card-text"><b>16°C</b>/5°C
+    <div class="emoji">🌧</div> </p>
+</div>
+</div>
+</div>
+<div class="col-sm">
+    <div class="card">
+  <div class="card-body">
+    <h5 class="card-title">Wednesday</h5>
+    <p class="card-text"><b>16°C</b>/5°C
+    <div class="emoji">🌦</div> </p>
+  </div>
+  </div>
+  </div>
+</div>
+</div>
+</div>
+<script src="src/index.js"></script>
+  </body>
+</html>
