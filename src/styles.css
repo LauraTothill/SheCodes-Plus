@@ -64,6 +64,11 @@ input.btn-secondary {
   font-weight: bold;
 }
 
+.personal-links {
+  text-align: center;
+  font-size: small;
+}
+
 .first-color {
   background: #ececec;
 }
